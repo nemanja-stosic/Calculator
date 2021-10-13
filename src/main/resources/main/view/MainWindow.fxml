@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/15" xmlns:fx="http://javafx.com/fxml" fx:controller="main.MainController">
+    <children>
+        <GridPane layoutY="128.0" prefHeight="344.0" prefWidth="570.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="one" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="1">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="two" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="2" GridPane.columnIndex="1">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="four" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="4" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="dot" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="zero" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="86.0" prefWidth="191.0" text="0" GridPane.rowIndex="3">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="eight" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="seven" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="7" GridPane.rowIndex="2">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="division" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="/" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="multiplication" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="*" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="minus" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="91.0" text="-" GridPane.columnIndex="5">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="nine" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="six" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="plus" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="91.0" text="+" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="three" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="3" GridPane.columnIndex="2">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="five" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="clear" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="C" GridPane.columnIndex="3">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="root" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="√" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="clearOnlyNum2" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="CE" GridPane.columnIndex="4">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="powX2" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="x²" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="powX3" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="x³" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="powXY" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="x^y" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                    <font>
+                        <Font size="29.0" />
+                    </font>
+                </Button>
+                <Button fx:id="factorial" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="n!" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+                <Button fx:id="equals" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="84.0" prefWidth="92.0" text="=" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                    <font>
+                        <Font size="33.0" />
+                    </font>
+                </Button>
+            </children>
+        </GridPane>
+        <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" layoutX="92.0" layoutY="33.0" prefHeight="95.0" prefWidth="478.0">
+            <font>
+                <Font size="41.0" />
+            </font>
+        </TextField>
+        <Label fx:id="num1" layoutX="435.0" layoutY="33.0" prefHeight="33.0" prefWidth="134.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Button fx:id="deleteOneNumber" layoutY="35.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButtons" onKeyPressed="#handlePressedKeys" prefHeight="92.0" prefWidth="92.0" text="←">
+            <font>
+                <Font size="33.0" />
+            </font>
+        </Button>
+        <MenuBar layoutX="-1.0" layoutY="-2.0" prefHeight="33.0" prefWidth="570.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="About">
+                    <items>
+                        <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" onAction="#handleAboutMenuItem" text="About TLC's Calculator" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>
+
